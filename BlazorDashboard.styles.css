@@ -1,0 +1,271 @@
+/* /Components/ChartView.razor.rz.scp.css */
+.dataChartStyle[b-wqpcvzs1g7] {
+
+    height : 600px;
+}
+.overlay[b-wqpcvzs1g7] {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: gray;
+    opacity: 0.7;
+    z-index: 2147483647;
+}
+
+.overlayTitle[b-wqpcvzs1g7] {
+    opacity: 1;
+    color: black;
+    font-size: xx-large;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+/* /Components/DashboardMenu.razor.rz.scp.css */
+.overlay[b-iw883p6q26] {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: gray;
+    opacity: 0.7;
+    z-index: 2147483647;
+}
+
+.overlayTitle[b-iw883p6q26] {
+    opacity: 1;
+    color: black;
+    font-size: xx-large;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.progressMessage[b-iw883p6q26] {
+}
+
+.progressStyle[b-iw883p6q26] {
+    padding-left : 12px;
+    padding-right : 12px;
+    background : white;
+    opacity : 0.7;
+    padding-top : 12px;
+    padding-bottom : 12px;
+}
+
+.progressStyleLoading[b-iw883p6q26] {
+    display : block !important;
+}
+
+.dashboardList[b-iw883p6q26] {
+    padding: 0;
+}
+.dashboardItem[b-iw883p6q26] {
+    padding: 12px;
+
+    list-style-type: none !important;
+    color: #2b2c34;
+    margin: 3px;
+}
+
+.dashboardItem:hover[b-iw883p6q26] {
+    background: #d1d1e9 !important;
+    cursor: pointer;
+}
+
+.dashboardItemActive[b-iw883p6q26] {
+    background: #d1d1e9 !important;
+}
+
+.fileUploadRegion[b-iw883p6q26] {
+    padding-top : 12px;
+    padding-bottom : 12px;
+    padding-left : 12px;
+}
+
+.uploadFileBtn[b-iw883p6q26] {
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+    padding: 1em;
+    border: 1px solid #dd0000;
+    background: #dd0000;
+    color: #fff;
+}
+
+.uploadFileBtn input[type="file"][b-iw883p6q26] {
+    opacity: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin: 0;
+    font-size: 100px;
+    cursor: pointer;
+}
+
+
+.drop-zone[b-iw883p6q26] {
+    padding: 32px;
+    border: dashed 2px transparent;
+    transition: border linear 0.2s;
+}
+
+/* hover CSS クラスが付いたら、オレンジ色の破線の枠を表示するよう定義 */
+.drop-zone.hover[b-iw883p6q26] {
+    border: dashed 2px darkorange;
+}
+/* /Components/GridView.razor.rz.scp.css */
+.dataGridStyle[b-2p5w0fufsv] {
+    width: calc(90% - 5px);
+    height : 300px;
+}
+
+.overlay[b-2p5w0fufsv] {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: gray;
+    opacity : 0.7;
+    z-index: 2147483647;
+}
+
+.overlayTitle[b-2p5w0fufsv] {
+    opacity : 1;
+    color : black;
+    font-size : xx-large;
+    background : white;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+    height : 100%;
+}
+/* /Components/Header.razor.rz.scp.css */
+.pageHeader[b-opftxkz66n] {
+    height: 54px;
+    display : flex;
+}
+
+.pageTitle[b-opftxkz66n] {
+    padding-left: 12px;
+    padding-top: 8px;
+    font-size: xx-large;
+
+}
+
+.pageMenu[b-opftxkz66n] {
+    margin-left : auto;
+    padding-right : 12px;
+    padding-top : 12px;
+}
+/* /Pages/Index.razor.rz.scp.css */
+.dockmanagerContainer[b-c2n4nzwai4] {
+    height: calc(100vh - 78px);
+}
+.dockManagerContent[b-c2n4nzwai4] {
+
+}
+/* /Shared/MainLayout.razor.rz.scp.css */
+.pageContainer[b-5tz02pjl43] {
+    background: #585397;
+    color : white;
+}
+.pageHeader[b-5tz02pjl43] {
+    height : 54px;
+    padding-left : 12px;
+    padding-top : 8px;
+    font-size : xx-large;
+}
+
+.pageMain[b-5tz02pjl43] {
+    padding : 12px;
+}
+
+.page[b-5tz02pjl43] {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+main[b-5tz02pjl43] {
+    flex: 1;
+}
+
+.sidebar[b-5tz02pjl43] {
+    background-image: linear-gradient(180deg, rgb(5, 39, 103) 0%, #3a0647 70%);
+}
+
+.top-row[b-5tz02pjl43] {
+    background-color: #f7f7f7;
+    border-bottom: 1px solid #d6d5d5;
+    justify-content: flex-end;
+    height: 3.5rem;
+    display: flex;
+    align-items: center;
+}
+
+    .top-row[b-5tz02pjl43]  a, .top-row[b-5tz02pjl43]  .btn-link {
+        white-space: nowrap;
+        margin-left: 1.5rem;
+        text-decoration: none;
+    }
+
+    .top-row[b-5tz02pjl43]  a:hover, .top-row[b-5tz02pjl43]  .btn-link:hover {
+        text-decoration: underline;
+    }
+
+    .top-row[b-5tz02pjl43]  a:first-child {
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+@media (max-width: 640.98px) {
+    .top-row:not(.auth)[b-5tz02pjl43] {
+        display: none;
+    }
+
+    .top-row.auth[b-5tz02pjl43] {
+        justify-content: space-between;
+    }
+
+    .top-row[b-5tz02pjl43]  a, .top-row[b-5tz02pjl43]  .btn-link {
+        margin-left: 0;
+    }
+}
+
+@media (min-width: 641px) {
+    .page[b-5tz02pjl43] {
+        flex-direction: row;
+    }
+
+    .sidebar[b-5tz02pjl43] {
+        width: 250px;
+        height: 100vh;
+        position: sticky;
+        top: 0;
+    }
+
+    .top-row[b-5tz02pjl43] {
+        position: sticky;
+        top: 0;
+        z-index: 1;
+    }
+
+    .top-row.auth[b-5tz02pjl43]  a:first-child {
+        flex: 1;
+        text-align: right;
+        width: 0;
+    }
+
+    .top-row[b-5tz02pjl43], article[b-5tz02pjl43] {
+        padding-left: 2rem !important;
+        padding-right: 1.5rem !important;
+    }
+}
